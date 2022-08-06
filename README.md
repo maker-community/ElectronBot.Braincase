@@ -25,6 +25,8 @@
 
 + [控件库展示demo——WinUI-Gallery](https://github.com/microsoft/WinUI-Gallery)
 
++ [图像处理库——opencvsharp](https://github.com/shimat/opencvsharp)
+
 # 关于后期的功能
 
 + 集成相关表情和动作
