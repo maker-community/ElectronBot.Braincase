@@ -1,5 +1,8 @@
 # ElectronBot.Braincase
-电子脑壳上位机程序的一些说明。
+电子脑壳上位机程序的一些说明，目前应用只开源的SDK部分。
+
+![应用首页](/Images/home.png)
+
 # 关于技术栈
 采用[（windows App SDK）WASDK](https://docs.microsoft.com/zh-cn/windows/apps/windows-app-sdk/)应用开发框架，这个可以根据链接进行查看，主要讲解SDK Demo如何使用。
 
@@ -27,10 +30,25 @@
 
 + [图像处理库——opencvsharp](https://github.com/shimat/opencvsharp)
 
++ [Emoji8 表情识别例子](https://github.com/microsoft/Windows-Machine-Learning/tree/master/Samples/Emoji8/UWP/cs)
+
+# 关于功能介绍
+
++ 表情和动作 
+
+目前加入了表情的播放，并且是可以通过电脑的声音设备播放，表情加动作会在后期进行加入。
+
++ 表情识别
+
+表情识别是参考了[Emoji8](https://github.com/microsoft/Windows-Machine-Learning/tree/master/Samples/Emoji8/UWP/cs)这个项目进行制作的，通过表情识别截图脸部数据，然后通过usb将数据传输到电子的屏幕上，制作成了量子纠缠。
+
+![表情页](/Images/emoji.png)
+
 # 关于后期的功能
 
-+ 集成相关表情和动作
-+ 表情识别
++ 优化表情和动作
++ 手势触发语音识别进行控制
++ 进行定时播报
 + 多电子连接
 
 待定。。。。
